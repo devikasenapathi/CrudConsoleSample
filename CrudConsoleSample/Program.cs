@@ -1,4 +1,5 @@
 ﻿using System;
+using CrudConsoleSample12;
 
 namespace CrudConsoleSample
 {
@@ -6,7 +7,11 @@ namespace CrudConsoleSample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            AddDetails obj = new AddDetails();
+            // obj.SignUpDetails();
+          //obj.DeleteT();
+            obj.Select();
+           // obj.update();
         }
     }
 }
